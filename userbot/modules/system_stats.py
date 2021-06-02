@@ -228,7 +228,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
+    await alive.edit("`Cotto Matte!`")
+    await alive.edit("`Cotto!`")
+    await alive.edit("❄")
     output = (
         f" **┗┓LORD USERBOT┏┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
